@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="attach_xmls_wizard_form_view">
+        <field name="name">attach_xmls_wizard_form</field>
+        <field name="model">attach.xmls.wizard</field>
+        <field name="arch" type="xml">
+            <form class="form-xml">
+                <field nolabel="1" name="dragndrop" widget="attach_xmls_wizard_widget" string="Attach Supplier XML's"/>
+                <footer class="xml-footer"></footer>
+            </form>
+        </field>
+    </record>
+    <record id="attach_xmls_wizard_action" model="ir.actions.act_window">
+        <field name="name">Attach Supplier Files</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name='res_model'>attach.xmls.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="attach_xmls_wizard_form_view"/>
+        <field name="target">new</field>
+    </record>
+    <menuitem action="attach_xmls_wizard_action" id="menu_atach_xmls_wizard" name="Attach Multiple Supplier XML's" parent="account.menu_finance_payables"/>
+</odoo>

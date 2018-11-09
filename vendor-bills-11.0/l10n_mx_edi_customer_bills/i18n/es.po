@@ -1,0 +1,82 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * l10n_mx_edi_customer_bills
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-11 14:43+0000\n"
+"PO-Revision-Date: 2018-10-11 14:43+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_mx_edi_customer_bills
+#: code:addons/l10n_mx_edi_customer_bills/wizards/attach_xmls_wizard.py:262
+#, python-format
+msgid "Account to set in the lines not found.<br/>"
+msgstr "Cuenta para configurar las lineas no encontrada.<br/>"
+
+#. module: l10n_mx_edi_customer_bills
+#: model:ir.actions.act_window,name:l10n_mx_edi_customer_bills.attach_xmls_wizard_customer_action
+msgid "Attach Customer Files"
+msgstr "Adjuntar Archivos para Clientes"
+
+#. module: l10n_mx_edi_customer_bills
+#: model:ir.ui.menu,name:l10n_mx_edi_customer_bills.menu_atach_xmls_customer_wizard
+msgid "Attach Multiple Customer XML's"
+msgstr "Adjuntar Multiples XML's de Clientes"
+
+#. module: l10n_mx_edi_customer_bills
+#: model:account.payment.term,name:l10n_mx_edi_customer_bills.aux_account_payment_term_ppd
+msgid "Auxiliary PPD"
+msgstr "Auxiliar PPD"
+
+#. module: l10n_mx_edi_customer_bills
+#: code:addons/l10n_mx_edi_customer_bills/wizards/attach_xmls_wizard.py:281
+#, python-format
+msgid "FUEL - IEPS"
+msgstr "FUEL - IEPS"
+
+#. module: l10n_mx_edi_customer_bills
+#: code:addons/l10n_mx_edi_customer_bills/wizards/attach_xmls_wizard.py:372
+#, python-format
+msgid "Info"
+msgstr "Info"
+
+#. module: l10n_mx_edi_customer_bills
+#: model:ir.model,name:l10n_mx_edi_customer_bills.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_mx_edi_customer_bills
+#: model:account.payment.term,note:l10n_mx_edi_customer_bills.aux_account_payment_term_ppd
+msgid "Payment terms: Auxiliary for PPD"
+msgstr "Términos de pago: Auxiliar para PPD"
+
+#. module: l10n_mx_edi_customer_bills
+#: code:addons/l10n_mx_edi_customer_bills/wizards/attach_xmls_wizard.py:232
+#, python-format
+msgid "Some products are not found in the system, and the account that is used like default is not configured in the journal, please set default account in the journal %s to create the invoice."
+msgstr "Algunos productos no fueron encontrados en el sistema y la cuenta usada por defecto no está configurada en el diario, por favor configurar la cuenta por default en el diario %s para crear la factura."
+
+#. module: l10n_mx_edi_customer_bills
+#: code:addons/l10n_mx_edi_customer_bills/wizards/attach_xmls_wizard.py:75
+#, python-format
+msgid "Something went wrong. The parameter for XML files must be a dictionary."
+msgstr "Algo salió mal. El parámetro para archivos XML debe ser un diccionario."
+
+#. module: l10n_mx_edi_customer_bills
+#: code:addons/l10n_mx_edi_customer_bills/wizards/attach_xmls_wizard.py:369
+#, python-format
+msgid "This partner was created when invoice %s was added from a XML file. Please verify that the datas of partner are correct."
+msgstr "Este socio fue creado cuando la factura %s fue añadida desde un archivo XML. Por favor verificar que la información del socio sea correcta."
+
+#. module: l10n_mx_edi_customer_bills
+#: model:ir.model,name:l10n_mx_edi_customer_bills.model_attach_xmls_wizard
+msgid "attach.xmls.wizard"
+msgstr "attach.xmls.wizard"
